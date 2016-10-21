@@ -23,8 +23,18 @@
   <input type="submit" value="Poetry">
 </form>
 <form action="http://httpbin.org/post" method="post">
-  <label for="POST-name">Piece:</label>
-  <input id="POST-name" type="text">
+  <label for="POST-writing">Piece:</label>
+  <input name="POST-writing" id="POST-piece" type="text">
+  <input type="radio" id="radio"> <label for="radio">Poetry <em>and</em> prose?</label>
+  <select id="language" name="language">
+  <optgroup label="Language">
+        <option>English</option>
+        <option>Spanish</option>
+        <option>Farsi Persian</option>
+        <option>Tajiki Persian</option>
+        <option>Other</option>
+      </optgroup>
+  </select>
   <input type="submit" value="Write">
 </form>
   </body>

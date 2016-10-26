@@ -4,4 +4,7 @@ $(document).ready(function() {
     $('#site_greeting').hide();
     $('#release').hide();
   });
+  $('#fountain_pen').click(function() {
+    $('#surprise').fadeIn(1000);
+  });
 });

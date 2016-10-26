@@ -7,4 +7,7 @@ $(document).ready(function() {
   $('#fountain_pen').click(function() {
     $('#surprise').fadeIn(1000);
   });
+  $('#surprise').click(function() {
+    $('#surprise').hide();
+  });
 });

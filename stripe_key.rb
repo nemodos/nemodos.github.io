@@ -1,0 +1,1 @@
+$PRIVATE_STRIPE_TEST_KEY = 'sk_test_ngu57MAQXd3OwIK3UgawgKYA'
